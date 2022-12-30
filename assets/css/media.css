@@ -1,0 +1,159 @@
+@media screen and (max-width: 1286px) {
+
+    .intro-title {
+        font-size: 5vw;
+    }
+
+    .feature-wrapper {
+        justify-content: start;
+    }
+
+    .feature-wrapper img {
+        max-width: 100%;
+        margin-right: 5vw;
+        height: 300px;
+    }
+
+    .message {
+        display: block;
+        margin-bottom: 0;
+    } 
+
+    .message .container {
+        max-width: 100%;
+        margin: 0;
+    }
+
+    .message-block {
+        display: none;
+    }
+
+    .message-wrapper {
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .message-form {
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+
+    .message-info {
+        padding-bottom: 77px;
+    }
+        
+    .intro-block:nth-child(2) {
+        width: 50%;
+        margin-right: 10px;
+    }
+
+    .member-photo {
+        margin-bottom: 10px;
+    }
+
+    .feature-links {
+        justify-content: space-between;
+        min-width: 90%;
+    }
+}
+
+@media screen and (max-width: 907px) {
+    .advantages-wrapper {
+        flex-wrap: wrap;
+    }
+
+    .advantages-block:nth-of-type(1) {
+        max-width: 90%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    .team-members {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .message-form div {
+        flex-direction: column;
+    }
+
+    .message-form div > input {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .message-button {
+        width: 95vw;
+    }
+
+    .intro-wrap {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .intro-block {
+        width: 95vw;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .intro-block:nth-child(2) {
+        width: 95vw;
+        margin-right: 0;
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .intro-title {
+        font-size: 46px;
+    }
+
+    .feature-links {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 535px) {
+    .subscribe-form {
+        flex-direction: column;
+    }
+
+    .subscribe-form #email1 {
+        width: 100%;
+    }
+
+    .subscribe-button  {
+        margin-top: 10px;
+    }
+
+    .team__selected-link {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .team__selected-link a {
+        margin-bottom: 10px;
+    }
+
+    h2 {
+        font-size: 36px;
+    }
+
+    .intro-title {
+        font-size: 40px;
+    }
+
+    .menu-item a {
+        padding-left: 15px;
+        padding-right: 15px;
+        font-size: 14px;
+    }
+    
+    .intro-block {
+        margin-right: 0;
+        margin-left: 0;
+    }
+}
